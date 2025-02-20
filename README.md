@@ -37,7 +37,7 @@ Lastly, our system includes a display that shows the current wiper mode (HIGH, S
 | Wipers returns to 0 degrees when in OFF mode from any mode and does nothing when already in OFF mode| PASS | 100% success  |
 | Wipers move at 30 RPM in SLOW and 40 RPM in HIGH mode in a oscillating pattern | PASS  | 100% success  |
 | Wipers move at 30 RPM in INT mode and has a the appropiated selected delay time (SHORT, MEDIUM, LONG) | PASS  | 100% sucess |
-| Wipers only run when the Ignition and stop  | PASS  | 100% success |
+| Wipers only run when the engine is ON and stop when the engine if OFF  | PASS  | 100% success |
 | Display showcases the selected mode when the ignition is ON and in INT mode it also showcases the selected delay| PASS  | 100% success |
 
 
